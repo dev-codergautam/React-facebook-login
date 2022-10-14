@@ -1,70 +1,40 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Login with Facebook in React Js
 
-## Available Scripts
+We're going to learn how to integrate Facebook login API into your React app.
 
-In the project directory, you can run:
+## Steps to follow
 
-### `npm start`
+- Set up a Facebook App
+- Create React.js App
+- Install Package "react-facebook-login"
+- Adding Facebook login to our React app
+- Run React App to Facebook Login
+- Run our React App to login with Facebook
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Facebook App
+Find / Create your facebook App Here
+https://developers.facebook.com/apps
 
-### `npm test`
+## Setup of FB-login
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Use this Link to setup the 
 
-### `npm run build`
+https://developers.facebook.com/apps/APPID/fb-login/settings/
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Permissions and Features 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Use this Link to setup the 
 
-### `npm run eject`
+https://developers.facebook.com/apps/APPID/app-review/permissions
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Description 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Development Mode and Live Mode have been replaced with new data access levels, more flexibility and streamline integration when building and using your business app. Standard Access is granted automatically and permits access to data owned by your business. 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Advanced Access must be requested through App Review to access data owned by people outside your business. If you don't need any level of access to a permission or feature, you can remove it and it will be listed as No Access.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you need permissions and features not listed, you can view more by removing your app from the business app type.
+​
